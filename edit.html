@@ -1,0 +1,22 @@
+---
+title: Edit page
+layout: default
+---
+
+{% assign data = site.pages | last %}
+
+<form action="https://learningnerd-github-cms.glitch.me/" method="post">
+  <p>
+    <label>
+      Title<br />
+      <input type="text" name="title" value="{{ data.title }}" />
+    </label>
+  </p>
+  <p>
+    <label>
+      Body<br />
+      <textarea name="body" style="width: 30em; height: 15em;">{{ data.content }}</textarea>
+    </label>
+  </p>
+  <p><button type="submit">Submit</button></p>
+</form>
