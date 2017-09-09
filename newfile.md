@@ -1,6 +1,1 @@
----
-title: undefined
-layout: default
----
-
-undefined
+this is some test content
