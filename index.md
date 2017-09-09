@@ -1,6 +1,7 @@
 ---
-title: Liz’s Robot Factory
+title: JIMS Robot Factory
 layout: default
 ---
 
-Liz’s Robot Factory has the best robot dinosaurs in the land!
+JIMS Robot Factory has the best robot dinosaurs in the land!
+
