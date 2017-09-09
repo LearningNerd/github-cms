@@ -1,9 +1,21 @@
 ---
-title: Edit page
-layout: default
+layout: null
 ---
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>Edit page</title>
+</head>
+<body>
 
-{% assign data = site.pages | last %}
+<h1>Edit page</h1>
+
+{% for page in site.pages %}
+  {% if page.url == "/" %}
+    {% assign data = page" %}
+  {% endif %}
+{% endfor %}
 
 <form action="https://learningnerd-github-cms.glitch.me/" method="post">
   <p>
@@ -20,3 +32,6 @@ layout: default
   </p>
   <p><button type="submit">Submit</button></p>
 </form>
+
+</body>
+</html>
